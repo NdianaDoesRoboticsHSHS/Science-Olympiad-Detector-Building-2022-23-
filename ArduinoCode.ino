@@ -112,8 +112,8 @@ loop();
      if(counter==0){Serial.print(0);}
      else if(counter==1){Serial.print(initialWeight);}
        else{Serial.print((counter-1)*weightIncrement + initialWeight);}
-       Serial.println(" grams weight to the force sensor in 10 seconds");
-     delay(7000);
+       Serial.println(" grams weight to the force sensor in 5 seconds");
+     delay(2000);
     Serial.print("3,");
     delay(1000);
     Serial.print("2,");
